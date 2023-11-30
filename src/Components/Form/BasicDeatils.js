@@ -18,7 +18,6 @@ const BasicDetails = () => {
       basicDetailsSchema.parse(state.basicDetails);
       // Clear previous validation errors if any
       setValidationErrors({});
-      // Continue with form submission logic or navigate to the next step
     } catch (error) {
       // Handle validation errors
       console.error(error.errors);
